@@ -47,6 +47,8 @@ const buttonEquals = document.createElement('button');
 
 //the operator buttons below will store the numbers and operator of choice on screen into the calcObj
 
+
+
 const buttonAdd = document.createElement('button');
     buttonAdd.classList.add('btn', 'btn-add');
     buttonAdd.textContent = '+';

@@ -14,12 +14,7 @@ body {
     align-items: center;
 }
 
-.center {
-
-}
-
 .screen {
-    background-color: grey;
     height: 100px;
     text-align: center;
     display: flex;
@@ -28,19 +23,20 @@ body {
 
 .screen1 {
     height: 50%;
-    background-color: rgb(0, 0, 0);
-    width: 210px;
+    background-color: #817f66;
+    width: 280px;
     border-bottom: 1px solid white;
     color: white;
     box-sizing: border-box;
     padding: 15px;
     text-align: end;
+    font-size: 22px;
 }
 
 .screen2 {
     height: 50%;
-    width: 210px;
-    background-color: rgb(0, 0, 0);
+    width: 280px;
+    background-color: #817f66;
     color: white;
     box-sizing: border-box;
     padding: 15px;
@@ -50,11 +46,54 @@ body {
 .btn-container {
     display: flex;
     flex-wrap: wrap;
-    width: 210px;
+    flex-direction: row-reverse;
+    width: 280px;
     height: auto;
 }
 
 .btn {
     width: 70px;
     height: 70px;
+    background-color: #d5f4e6;
+}
+
+.btn:hover {
+    cursor: pointer;
+    scale: 1.03;
+}
+
+.btn-divide {
+    order: 2;
+}
+
+.btn9, .btn8, .btn7, .btn-multiply {
+    order: 3;
+}
+
+.btn6, .btn5, .btn4, .btn-subtract{
+    order: 4;
+}
+
+.btn3, .btn2, .btn1 {
+    order: 5;
+}
+
+.btn-add {
+    order: 6;
+}
+
+.btn-clr, .btn-dot {
+    order: 7;
+}
+
+.btn0, .btn-eq {
+    order: 8;
+}
+
+.btn-eq {
+    flex:1;
+}
+
+.btn-add, .btn-subtract, .btn-divide, .btn-multiply {
+    background-color: #7fd1da;
 }
