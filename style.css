@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-color: #d6d6be;
 }
 
 .screen {
@@ -23,7 +24,7 @@ body {
 
 .screen1 {
     height: 50%;
-    background-color: #817f66;
+    background-color: #90afac;
     width: 280px;
     border-bottom: 1px solid white;
     color: white;
@@ -36,7 +37,7 @@ body {
 .screen2 {
     height: 50%;
     width: 280px;
-    background-color: #817f66;
+    background-color: #748885;
     color: white;
     box-sizing: border-box;
     padding: 15px;
@@ -60,6 +61,7 @@ body {
 .btn:hover {
     cursor: pointer;
     scale: 1.03;
+    background-color: white;
 }
 
 .btn-divide {
